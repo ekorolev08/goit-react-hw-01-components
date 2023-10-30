@@ -1,0 +1,83 @@
+.profile {
+    display: flex;
+    max-width: 33%;
+    flex-direction: column;
+    margin: 80px auto;
+    border: 3px black solid;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .avatar {
+    display: block;
+    border-radius: 50%;
+    border: 2px black solid;
+    background: linear-gradient(blue, yellow);
+    margin: 50px auto;
+    max-width: 40%;
+    overflow: hidden;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(14, 14, 14);
+    margin-bottom: 20px;
+  }
+  
+  .tag {
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  
+  .location {
+    font-weight: bold;
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: yellow; */
+    background: linear-gradient(blue, yellow);
+    transition: background-color 0.5s ;
+  }
+  .stats:hover {
+    background: linear-gradient( yellow, blue);
+  }
+  
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    gap: 18px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px 25px;
+    border: 1px black solid;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+  }
+  
+  .quantity {
+    font-weight: bolder;
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+  }
+  

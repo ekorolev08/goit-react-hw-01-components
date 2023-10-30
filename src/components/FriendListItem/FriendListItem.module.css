@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    gap: 24px;
+    padding: 10px 25px;
+    align-items: center;
+    border: 3px black solid;
+    border-radius: 8px;
+    /* background-color: #ffffff; */
+    background: linear-gradient(blue, yellow);
+  }
+  .item:hover {
+    background: linear-gradient( yellow, blue);
+  }
+  
+  .status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  }
+  
+  .avatar {
+    width: 70px;
+  }
+  
+  .name {
+    font-weight: 600;
+    color: #0e0e0e;
+    font-size: 32px;
+  }
+  
