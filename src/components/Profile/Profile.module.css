@@ -1,3 +1,14 @@
+@keyframes colorChange {
+  0% {
+    background: linear-gradient(blue, yellow);
+  }
+  50% {
+    background: linear-gradient(yellow, blue);
+  }
+  100% {
+    background: linear-gradient( blue, yellow);
+  }
+}
 .profile {
     display: flex;
     max-width: 33%;
@@ -50,14 +61,16 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* background-color: yellow; */
     background: linear-gradient(blue, yellow);
-    transition: background-color 0.5s ;
+    /* transition: background-color 1.5s ; */
+    animation: colorChange 2s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
   }
+
   .stats:hover {
-    background: linear-gradient( black, red);
+    background: linear-gradient( yellow, blue);
+
   }
-  
+ 
   .stats li {
     display: flex;
     flex-direction: column;
