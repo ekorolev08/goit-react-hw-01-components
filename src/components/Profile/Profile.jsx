@@ -1,11 +1,17 @@
 // import { HiMail} from 'react-icons/hi';
+// import  styled  from 'styled-components';
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
+
+// const PageTitle = styled.h1`
+// border-color: orange;
+// `;
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={css.profile}>
       <div className={css.description}>
+        {/* <PageTitle> <HiMail size="40"/>TOP RATED </PageTitle> */}
         <img src={avatar} alt="User avatar" className={css.avatar} />
         <p className={css.name}>{username}</p>
         <p className={css.tag}>@{tag}</p>
