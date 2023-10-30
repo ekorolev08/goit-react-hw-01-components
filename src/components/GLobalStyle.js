@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
-export const GlobalStyle = createGlobalStyle`
+export const TriedToRenameIt = createGlobalStyle`
 
 *{
   box-sizing: border-box;

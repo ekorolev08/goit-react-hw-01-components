@@ -26,7 +26,7 @@ import friends from '../friends.json';
 
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 import transactions from '../transactions.json';
-import { GlobalStyle } from './GLobalStyle';
+import { TriedToRenameIt } from './GLobalStyle';
 
 export const App = () => {
   return (
@@ -38,7 +38,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      < GlobalStyle />
+      < TriedToRenameIt />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
